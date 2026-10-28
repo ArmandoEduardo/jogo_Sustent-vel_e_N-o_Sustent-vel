@@ -15,7 +15,7 @@ class Game:
 
         # ================= Fundo =================
         self.imagem_jogo = pygame.image.load(
-            "assets/telas/JOGO_CIDADE_SUSTENTÁVEL_E_NÃO_SUSTENTÁVEL_MAIN.png"
+            "../assets/telas/JOGO_CIDADE_SUSTENTÁVEL_E_NÃO_SUSTENTÁVEL_MAIN.png"
         ).convert_alpha()
         self.imagem_jogo = pygame.transform.smoothscale(
             self.imagem_jogo, (self.largura, self.altura)
@@ -38,7 +38,7 @@ class Game:
         self.limite_fila = 5
 
         # ================= Estado =================
-        self.cenas = self._carregar_cenas("assets/figuras")
+        self.cenas = self._carregar_cenas("../assets/figuras")
 
         self.fila = []
         self.proximas = []

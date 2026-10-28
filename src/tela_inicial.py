@@ -9,7 +9,7 @@ class TelaInicial:
         self.largura, self.altura = self.info_tela.current_w, self.info_tela.current_h
         pygame.display.set_caption("Sustentável e Não Sustentável")
         self.tela_inicial = pygame.display.set_mode((self.largura, self.altura), pygame.SCALED)
-        self.image = pygame.image.load("assets/telas/JOGO_CIDADE_SUSTENTÁVEL_E_NÃO_SUSTENTÁVEL_TELA_INICIAL.png").convert_alpha()
+        self.image = pygame.image.load("../assets/telas/JOGO_CIDADE_SUSTENTÁVEL_E_NÃO_SUSTENTÁVEL_TELA_INICIAL.png").convert_alpha()
         self.rodar = True
 
 
