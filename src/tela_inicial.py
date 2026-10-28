@@ -37,4 +37,4 @@ class TelaInicial:
             self.image = pygame.transform.smoothscale(self.image, (self.largura, self.altura))
             self.tela_inicial.blit(self.image, (0, 0))
 
-            pygame.display.flip()
+            pygame.display.flip() 
